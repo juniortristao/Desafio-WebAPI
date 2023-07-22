@@ -4,10 +4,9 @@ This is the documentation for the SmartSchool API, a WebAPI designed to manage s
 
 ## API Information
 
-- **Title:** SmartSchool API
+- **Title:** SmartSchool Project
 - **Description:** A descrição da WebAPI do SmartSchool
 - **Version:** 1.0
-- **Terms of Service:** [Terms of Service](http://SeusTermosDeUso.com)
 - **Contact:** junioradevaldo@gmail.com
 - **GitHub:** [juniortristao](https://github.com/juniortristao)
 
