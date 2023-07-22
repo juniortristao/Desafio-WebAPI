@@ -1,8 +1,29 @@
-# SmartSchool API Documentation
+# School Api Documentation
 
-This is the documentation for the SmartSchool API, a WebAPI designed to manage student and professor data. Below you will find the endpoints, request parameters, and response information for each API operation.
+This is the documentation for SchoolApi, a WebAPI designed to manage student and professor data. Below you will find the endpoints, request parameters, and response information for each API operation.
 
+## Project Objective
+
+The project was developed to perform registrations of students and professors for study purposes.
+
+## Concepts Covered:
+**A RESTful WebApi was developed using:**
+  - `Object-Oriented Programming,
+  - `Ef Core,
+  - `Swagger.
+**For the Frontend, an Angular App was developed to consume the API using:**
+  - `JSON,
+  - `Bootstrap.
+  - 
 ## API Information
+
+- **Title:** SmartSchool Project
+- **Description:** A descrição da WebAPI do SmartSchool
+- **Version:** 1.0
+- **Contact:** junioradevaldo@gmail.com
+- **GitHub:** [juniortristao](https://github.com/juniortristao)
+
+  ## APP Information
 
 - **Title:** SmartSchool Project
 - **Description:** A descrição da WebAPI do SmartSchool
@@ -13,11 +34,16 @@ This is the documentation for the SmartSchool API, a WebAPI designed to manage s
 ## Startup
 
 It is essential that the 'Visual Studio Code' program is properly installed on the machine where the application will be executed.
+**Step-by-step initialization process:**
+  - `1- Install SQLite, Visual Studio Code, .NET 6 SDK, and Angular 16.
+  - `2- Drag the 'database.db' DLL to the SQLite database.
+  - `3- Start the API (dotnet watch run) and the App (ng serve).
+
+
 
 ## Languages
 
-C# .net6
-Angular 16
+C#, TypeScript, HTML, CSS.
 
 ## Base URL
 
