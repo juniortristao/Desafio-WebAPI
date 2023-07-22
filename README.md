@@ -17,7 +17,8 @@ It is essential that the 'Visual Studio Code' program is properly installed on t
 
 ## Languages
 
-C#.
+C# .net6
+Angular 16
 
 ## Base URL
 
