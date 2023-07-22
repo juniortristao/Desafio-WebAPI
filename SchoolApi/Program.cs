@@ -33,7 +33,12 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+app.UseCors(x => x
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .SetIsOriginAllowed(origin => true) // allow any origin
+                                                        //.WithOrigins("https://localhost:44351")); // Allow only this origin can also have multiple origins separated with comma
+                    .AllowCredentials()); // allow credentials
 
 app.MapRazorPages();
 if (app.Environment.IsDevelopment())
@@ -64,7 +69,13 @@ void ConfigureServices(IServiceCollection services, ConfigurationManager Configu
         services.AddDbContext<SmartContext>(
             ctx => ctx.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
+        services.AddControllersWithViews()
+            .AddNewtonsoftJson(options =>
+            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+        );
         services.AddControllers();
+
+        services.AddCors();
 
         services.AddMvcCore().AddApiExplorer();
         services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());

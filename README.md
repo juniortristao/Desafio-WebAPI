@@ -217,9 +217,7 @@ The swagger url is `http://localhost:5128/index.html`
 - **Method:** GET
 - **Endpoint:** `/api/v1/Professor/getRegister`
 - **Description:** Retrieve professor registration information.
-- **Response
-
-:**
+- **Response:**
   - Status Code: 200
   - Description: Success
 

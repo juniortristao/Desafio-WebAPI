@@ -51,6 +51,16 @@ namespace SmartSchool.WebAPI.V1.Controllers
 
             return Ok(Professor);
         }
+
+        // api/Professor
+        [HttpGet("byaluno/{alunoId}")]
+        public IActionResult GetBybyAlunoId(int alunoId)
+        {
+            var Professores = _repo.GetProfessoresByAlunoId(alunoId, false);
+            if (Professores == null) return BadRequest("Professores não foi encontrados");
+
+            return Ok(_mapper.Map<IEnumerable<ProfessorDto>>(Professores));
+        }
        
         // api/Professor
         [HttpPost]
