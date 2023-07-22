@@ -8,7 +8,7 @@ This is the documentation for the SmartSchool API, a WebAPI designed to manage s
 - **Description:** A descrição da WebAPI do SmartSchool
 - **Version:** 1.0
 - **Terms of Service:** [Terms of Service](http://SeusTermosDeUso.com)
-- **Contact:** junioradevaldo@gmail.com / https://wa.me/5515991760324?text=WhatsApp
+- **Contact:** junioradevaldo@gmail.com
 - **GitHub:** [juniortristao](https://github.com/juniortristao)
 
 ## Startup
@@ -273,5 +273,3 @@ The swagger url is `http://localhost:5128/index.html`
   "estado": "boolean"
 }
 ```
-
-Please note that this is just a basic overview of the API endpoints, request parameters, and data models. For more detailed information and examples of API requests and responses, consider providing additional documentation or exploring the API interactively with tools like Swagger or Postman.
