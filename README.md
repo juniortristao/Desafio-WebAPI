@@ -8,13 +8,13 @@ The project was developed to perform registrations of students and professors fo
 
 ## Concepts Covered:
 **A RESTful WebApi was developed using:**
-  - `Object-Oriented Programming,
-  - `Ef Core,
-  - `Swagger.
+  - Object-Oriented Programming,
+  - Ef Core,
+  - Swagger.
 **For the Frontend, an Angular App was developed to consume the API using:**
-  - `JSON,
-  - `Bootstrap.
-  - 
+  - JSON,
+  - Bootstrap.
+    
 ## API Information
 
 - **Title:** SmartSchool Project
