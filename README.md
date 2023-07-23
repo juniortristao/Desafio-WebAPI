@@ -6,8 +6,10 @@ This is the documentation for SchoolApi and SchoolApp WebAPI designed to manage 
 
 The project was developed to perform registrations of students and professors for study purposes.
 
+## Miro: [Miro](https://miro.com/welcomeonboard/NmpNM1gyc1RoUGQyQmZnUEJDN2J0S3Y1TXZyeVgweWtmOGdweWVqNU5YNjVFU1RNZERnTEx3dlJmajE0ZnJHM3wzNDU4NzY0NTU5OTkwMTgzMzA1fDI=?share_link_id=970097797124)
+
 ## Concepts Covered:
-**A RESTful WebApi was developed using:**
+**The REST WebApi was developed using:**
   - Object-Oriented Programming,
   - Ef Core,
   - Swagger.
@@ -19,16 +21,15 @@ The project was developed to perform registrations of students and professors fo
 ## API Information
 
 - **Title:** SmartSchool Project
-- **Description:** A descrição da WebAPI do SmartSchool
+- **Description:** Web Api for data management with sqlite
 - **Version:** 1.0
 - **Contact:** junioradevaldo@gmail.com
 - **GitHub:** [juniortristao](https://github.com/juniortristao)
-- **Miro:** https://miro.com/welcomeonboard/NmpNM1gyc1RoUGQyQmZnUEJDN2J0S3Y1TXZyeVgweWtmOGdweWVqNU5YNjVFU1RNZERnTEx3dlJmajE0ZnJHM3wzNDU4NzY0NTU5OTkwMTgzMzA1fDI=?share_link_id=970097797124
 
-  ## APP Information
+## APP Information
 
 - **Title:** SmartSchool Project
-- **Description:** A descrição da WebAPI do SmartSchool
+- **Description:** A web app for data management using rest apis
 - **Version:** 1.0
 - **Contact:** junioradevaldo@gmail.com
 - **GitHub:** [juniortristao](https://github.com/juniortristao)
@@ -42,8 +43,6 @@ It is essential that the 'Visual Studio Code' program is properly installed on t
   - 1- Install SQLite, Visual Studio Code, .NET 6 SDK, and Angular 16.
   - 2- Drag the 'database.db' DLL to the SQLite database.
   - 3- Start the API (dotnet watch run) and the App (ng serve).
-
-
 
 ## Languages
 
