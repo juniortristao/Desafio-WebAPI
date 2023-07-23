@@ -11,6 +11,7 @@ The project was developed to perform registrations of students and professors fo
   - Object-Oriented Programming,
   - Ef Core,
   - Swagger.
+
 **For the Frontend, an Angular App was developed to consume the API using:**
   - JSON,
   - Bootstrap.
@@ -34,10 +35,12 @@ The project was developed to perform registrations of students and professors fo
 ## Startup
 
 It is essential that the 'Visual Studio Code' program is properly installed on the machine where the application will be executed.
+
 **Step-by-step initialization process:**
-  - `1- Install SQLite, Visual Studio Code, .NET 6 SDK, and Angular 16.
-  - `2- Drag the 'database.db' DLL to the SQLite database.
-  - `3- Start the API (dotnet watch run) and the App (ng serve).
+
+  - 1- Install SQLite, Visual Studio Code, .NET 6 SDK, and Angular 16.
+  - 2- Drag the 'database.db' DLL to the SQLite database.
+  - 3- Start the API (dotnet watch run) and the App (ng serve).
 
 
 
