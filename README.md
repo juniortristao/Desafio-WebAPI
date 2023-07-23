@@ -52,6 +52,7 @@ C#, TypeScript, HTML, CSS.
 
 The base URL for all API endpoints is `http://localhost:5128/api/`.
 The swagger url is `http://localhost:5128/index.html`
+The App Url is `http://localhost:4200/`
 
 ## Endpoints
 
