@@ -23,6 +23,7 @@ The project was developed to perform registrations of students and professors fo
 - **Version:** 1.0
 - **Contact:** junioradevaldo@gmail.com
 - **GitHub:** [juniortristao](https://github.com/juniortristao)
+- **Miro:** https://miro.com/welcomeonboard/NmpNM1gyc1RoUGQyQmZnUEJDN2J0S3Y1TXZyeVgweWtmOGdweWVqNU5YNjVFU1RNZERnTEx3dlJmajE0ZnJHM3wzNDU4NzY0NTU5OTkwMTgzMzA1fDI=?share_link_id=970097797124
 
   ## APP Information
 
