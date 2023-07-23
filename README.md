@@ -1,6 +1,6 @@
 # School Api Documentation
 
-This is the documentation for SchoolApi, a WebAPI designed to manage student and professor data. Below you will find the endpoints, request parameters, and response information for each API operation.
+This is the documentation for SchoolApi and SchoolApp WebAPI designed to manage students and professor data. Below you will find the endpoints, request parameters, and response information for each API operation, as well a web app portal to manage data.
 
 ## Project Objective
 
