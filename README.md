@@ -1,11 +1,35 @@
-# SmartSchool API Documentation
+# School Api Documentation
 
-This is the documentation for the SmartSchool API, a WebAPI designed to manage student and professor data. Below you will find the endpoints, request parameters, and response information for each API operation.
+This is the documentation for SchoolApi and SchoolApp WebAPI designed to manage students and professor data. Below you will find the endpoints, request parameters, and response information for each API operation, as well a web app portal to manage data.
 
+## Project Objective
+
+The project was developed to perform registrations of students and professors for study purposes.
+
+## Miro: [Miro](https://miro.com/welcomeonboard/NmpNM1gyc1RoUGQyQmZnUEJDN2J0S3Y1TXZyeVgweWtmOGdweWVqNU5YNjVFU1RNZERnTEx3dlJmajE0ZnJHM3wzNDU4NzY0NTU5OTkwMTgzMzA1fDI=?share_link_id=970097797124)
+
+## Concepts Covered:
+**The REST WebApi was developed using:**
+  - Object-Oriented Programming,
+  - Ef Core,
+  - Swagger.
+
+**For the Frontend, an Angular App was developed to consume the API using:**
+  - JSON,
+  - Bootstrap.
+    
 ## API Information
 
 - **Title:** SmartSchool Project
-- **Description:** A descrição da WebAPI do SmartSchool
+- **Description:** Web Api for data management with sqlite
+- **Version:** 1.0
+- **Contact:** junioradevaldo@gmail.com
+- **GitHub:** [juniortristao](https://github.com/juniortristao)
+
+## APP Information
+
+- **Title:** SmartSchool Project
+- **Description:** A web app for data management using rest apis
 - **Version:** 1.0
 - **Contact:** junioradevaldo@gmail.com
 - **GitHub:** [juniortristao](https://github.com/juniortristao)
@@ -14,15 +38,21 @@ This is the documentation for the SmartSchool API, a WebAPI designed to manage s
 
 It is essential that the 'Visual Studio Code' program is properly installed on the machine where the application will be executed.
 
+**Step-by-step initialization process:**
+
+  - 1- Install SQLite, Visual Studio Code, .NET 6 SDK, and Angular 16.
+  - 2- Drag the 'database.db' DLL to the SQLite database.
+  - 3- Start the API (dotnet watch run) and the App (ng serve).
+
 ## Languages
 
-C# .net6
-Angular 16
+C#, TypeScript, HTML, CSS.
 
 ## Base URL
 
 The base URL for all API endpoints is `http://localhost:5128/api/`.
 The swagger url is `http://localhost:5128/index.html`
+The App Url is `http://localhost:4200/`
 
 ## Endpoints
 
