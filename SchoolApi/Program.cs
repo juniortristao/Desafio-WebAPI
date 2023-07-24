@@ -108,7 +108,7 @@ void ConfigureServices(IServiceCollection services, ConfigurationManager Configu
                         Title = "SmartSchool API",
                         Version = description.ApiVersion.ToString(),
                         TermsOfService = new Uri("http://SeusTermosDeUso.com"),
-                        Description = "A descrição da WebAPI do SmartSchool",
+                        Description = "A descriï¿½ï¿½o da WebAPI do SmartSchool",
                         License = new Microsoft.OpenApi.Models.OpenApiLicense
                         {
                             Name = "SmartSchool License",
@@ -116,8 +116,8 @@ void ConfigureServices(IServiceCollection services, ConfigurationManager Configu
                         },
                         Contact = new Microsoft.OpenApi.Models.OpenApiContact
                         {
-                            Name = "Junior Tristão",
-                            Email = "",
+                            Name = "Junior Tristï¿½o",
+                            Email = "junioradevaldo@gmail.com",
                             Url = new Uri("https://github.com/juniortristao")
                         }
                     }

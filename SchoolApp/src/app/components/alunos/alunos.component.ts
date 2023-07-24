@@ -105,7 +105,7 @@ export class AlunosComponent implements OnInit, OnDestroy {
         this.aluno = {id: this.alunoSelecionado.id, ...this.alunoForm.value};
       }
 
-      (this.alunoService as any)(this.aluno)
+      this.alunoService.patch(this.aluno)
         .pipe(takeUntil(this.unsubscriber))
         .subscribe(
           () => {
@@ -182,7 +182,7 @@ export class AlunosComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.unsubscriber.next(null);
+    this.unsubscriber.next(true);
     this.unsubscriber.complete();
   }
 
